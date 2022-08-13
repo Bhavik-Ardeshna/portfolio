@@ -13,12 +13,24 @@
     <!--<link rel="icon" type="image/png" href="images/waterloo_crest.png"> -->
 </head>
 
-<body style="background-color: rgb(216, 229, 231);">
+<body style="background-color: rgb(174, 244, 255);">
     <table
         style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
             <tr style="padding:0px">
                 <td style="padding:0px">
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> 
+                        <tbody>
+                            <hr>
+                            <div style="padding:20px;width:100%;vertical-align:middle;font-size:25px;margin-left:10%;">
+                                <a style="font-size:21px" href="#Publications">Publications📝</a> &nbsp/&nbsp 
+                                <a style="font-size:21px" href="#Articles&Blogs">Articles & Blogs✍</a> &nbsp/&nbsp 
+                                <a style="font-size:21px" href="#Projects">Projects💻</a> &nbsp/&nbsp 
+                                <a style="font-size:21px" href="#Datasets">Datasets📚</a> 
+                            </div>
+                            <hr>
+                        </tbody>
+                    </table>
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
@@ -77,8 +89,10 @@
                             </tr>
                         </tbody>
                     </table>
-                    <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+                    
+
+                    <table id="Publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
@@ -153,7 +167,7 @@
                     </table>
 
 
-                    <table
+                    <table id="Articles&Blogs"
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
                             <tr>
@@ -216,83 +230,203 @@
                         </tbody>
                     </table>
 
+                    <table id="Projects"
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>Projects💻</heading>
+                                    <p>
+                                        I'm broadly interested in natural language processing, visiolinguistic representations zero-shot learning. I have worked on low-resource language models, transformers, adapters, cross-lingual transfer, image-text feature alignment. I have also explored the conversational question answering(CQA), open-domain learning.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
                     <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/vqa-project.png" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://github.com/Bhavik-Ardeshna/Visual-Question-Answering-MultiModular-Architecture" target="_blank">
+                                        <papertitle>Visual Question-Answering MultiModular Architecture</papertitle>
+                                    </a>
+                                    <br>
+                                    <em>Transformer, PyTorch, HuggingFace, Computer Vision, NLP</em>
+                                    <br>
+                                    <u><a href="https://github.com/Bhavik-Ardeshna/Visual-Question-Answering-MultiModular-Architecture" target="_blank">code</a></u> 
+                                    <p>
+                                        It emphasizes the featurization of image and question, feature fusion, and answer generation for the multimodal system for VisioLinguistic tasks, using different text and vision transformers to evaluate the efficacy of QA downstream task using a multimodular framework.
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/qa-project.png" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages" target="_blank">
+                                        <papertitle>Question-Answering for Low-Resource Languages
+                                        </papertitle>
+                                    </a>
+                                    <br>
+                                    <em>NLP, Language Modeling, Zero-Shot Learning, Adapters, HuggingFace</em>
+                                    <br>
+                                    <u><a href="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages" target="_blank">code</a></u> 
+                                    <p>
+                                        We trained four variants of adapter combinations for - Hindi, Arabic, German, Spanish, English, Vietnamese, and Simplified Chinese languages. We demonstrated that by using the transformer model with the multi-task adapters, the performance can be improved for the downstream task.
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/pdfconvertor.png" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://github.com/Bhavik-Ardeshna/PDFConverter" target="_blank">
+                                        <papertitle>PDFConverter
+                                        </papertitle>
+                                    </a>
+                                    <br>
+                                    <em>Flask, React, Jinja, Drag & Drop, Tailwind</em>
+                                    <br>
+                                    <u><a href="https://github.com/Bhavik-Ardeshna/PDFConverter" target="_blank">code</a></u> 
+                                    <p>
+                                        Features Provided By PDFConverter Tools
+                                        <ul>
+                                            <li>Rotate Pdf [90°,180°,270°,360°]</li>
+                                            <li>Merge Pdf (Merger all uploaded or droped pdfs)</li>
+                                            <li>Split Pdf (Split the pdf as per provided page numbers)</li>
+                                            <li>Convert Pdf to [JPEG, PNG, HTML, Text]</li>
+                                            <li>Crop Pdf & Download the modified pdf or zip</li>
+                                        </ul>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/creatively.png" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://github.com/Bhavik-Ardeshna/Creatively.io" target="_blank">
+                                        <papertitle>Creatively.io
+                                        </papertitle>
+                                    </a>
+                                    <br>
+                                    <em>MERN, JWT-Auth, Tailwind, Canvas, API</em>
+                                    <br>
+                                    <u><a href="https://github.com/Bhavik-Ardeshna/Creatively.io" target="_blank">code</a></u> 
+                                    <p>
+                                        Creatively.io provides features to create their own canvas and with the help of its beautifully designed UI user can share to the world.
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/instabook.png" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://github.com/Bhavik-Ardeshna/InstaBook" target="_blank">
+                                        <papertitle>InstaBook</papertitle>
+                                    </a>
+                                    <br>
+                                    <em>Django, SQLite, Web-Sockets, Tailwind</em>
+                                    <br>
+                                    <u><a href="https://github.com/Bhavik-Ardeshna/InstaBook" target="_blank">code</a></u> 
+                                    <p>
+                                        InstaBook was smartly created using Django and other tools such that it supports all features which are provided by Instagram. InstaBook is created to change social media communication and many new users would get attracted and use InstaBook and be socialize. 
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table id="Datasets"
                     style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                    <tbody>
-                        <tr>
-                            <td style="padding:20px;width:100%;vertical-align:middle">
-                                <heading>Datasets📚</heading>
-                                <p>
-                                    I'm broadly interested in natural language processing, visiolinguistic representations zero-shot learning. I have worked on low-resource language models, transformers, adapters, cross-lingual transfer, image-text feature alignment. I have also explored the conversational question answering(CQA), open-domain learning.
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-               
-                <table
-                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                    <tbody>
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>Datasets📚</heading>
+                                    <p>
+                                        I'm broadly interested in natural language processing, visiolinguistic representations zero-shot learning. I have worked on low-resource language models, transformers, adapters, cross-lingual transfer, image-text feature alignment. I have also explored the conversational question answering(CQA), open-domain learning.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
 
-                        <tr>
-                            <td style="padding:20px;width:25%;vertical-align:middle">
-                                <img src="image/vqa.jpg" alt="fast-texture" width="160" height="120">
-                            </td>
-                            <td width="75%" valign="middle">
-                                <a href="https://www.kaggle.com/datasets/bhavikardeshna/visual-question-answering-computer-vision-nlp" target="_blank">
-                                    <papertitle>Visual Question Answering- Computer Vision & NLP</papertitle>
-                                </a>
-                                <br>
-                                The dataset is uploaded to <em>Kaggle</em>
-                                <br>
-                                <u><a href="https://www.kaggle.com/datasets/bhavikardeshna/visual-question-answering-computer-vision-nlp" target="_blank">dataset</a></u> 
-                                <p>
-                                    VQA is a multimodal task wherein, given an image and a natural language question related to the image, the objective is to produce a natural language answer correctly as output. VQA entails a wide range of sub-problems in both CV and NLP (such as object detection and recognition, scene classification, counting, and so on). Thus, it is considered an AI-complete task.
-                                </p>
-                            </td>
-                        </tr>
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/vqa.jpg" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://www.kaggle.com/datasets/bhavikardeshna/visual-question-answering-computer-vision-nlp" target="_blank">
+                                        <papertitle>Visual Question Answering- Computer Vision & NLP</papertitle>
+                                    </a>
+                                    <br>
+                                    The dataset is uploaded to <em>Kaggle</em>
+                                    <br>
+                                    <u><a href="https://www.kaggle.com/datasets/bhavikardeshna/visual-question-answering-computer-vision-nlp" target="_blank">dataset</a></u> 
+                                    <p>
+                                        VQA is a multimodal task wherein, given an image and a natural language question related to the image, the objective is to produce a natural language answer correctly as output. VQA entails a wide range of sub-problems in both CV and NLP (such as object detection and recognition, scene classification, counting, and so on). Thus, it is considered an AI-complete task.
+                                    </p>
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td style="padding:20px;width:25%;vertical-align:middle">
-                                <img src="image/yahoo.jpg" alt="fast-texture" width="160" height="120">
-                            </td>
-                            <td width="75%" valign="middle">
-                                <a href="https://www.kaggle.com/datasets/bhavikardeshna/yahoo-email-classification" target="_blank">
-                                    <papertitle>Yahoo! Answers Topic Classification
-                                    </papertitle>
-                                </a>
-                                <br>
-                                The dataset is uploaded to <em>Kaggle</em>
-                                <br>
-                                <u><a href="https://www.kaggle.com/datasets/bhavikardeshna/yahoo-email-classification" target="_blank">dataset</a></u> 
-                                <p>
-                                    The Yahoo! Answers topic classification dataset is constructed using the 10 largest main categories. Each class contains 140,000 training samples and 6,000 testing samples. Therefore, the total number of training samples is 1,400,000, and testing samples are 60,000 in this dataset. From all the answers and other meta-information, we only used the best answer content and the main category information.
-                                </p>
-                            </td>
-                        </tr>
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/yahoo.jpg" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://www.kaggle.com/datasets/bhavikardeshna/yahoo-email-classification" target="_blank">
+                                        <papertitle>Yahoo! Answers Topic Classification
+                                        </papertitle>
+                                    </a>
+                                    <br>
+                                    The dataset is uploaded to <em>Kaggle</em>
+                                    <br>
+                                    <u><a href="https://www.kaggle.com/datasets/bhavikardeshna/yahoo-email-classification" target="_blank">dataset</a></u> 
+                                    <p>
+                                        The Yahoo! Answers topic classification dataset is constructed using the 10 largest main categories. Each class contains 140,000 training samples and 6,000 testing samples. Therefore, the total number of training samples is 1,400,000, and testing samples are 60,000 in this dataset. From all the answers and other meta-information, we only used the best answer content and the main category information.
+                                    </p>
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td style="padding:20px;width:25%;vertical-align:middle">
-                                <img src="image/amazon-review.png" alt="fast-texture" width="160" height="120">
-                            </td>
-                            <td width="75%" valign="middle">
-                                <a href="https://www.kaggle.com/datasets/bhavikardeshna/amazon-customerreviews-polarity" target="_blank">
-                                    <papertitle>Amazon Customer-Reviews Polarity
-                                    </papertitle>
-                                </a>
-                                <br>
-                                The dataset is uploaded to <em>Kaggle</em>
-                                <br>
-                                <u><a href="https://www.kaggle.com/datasets/bhavikardeshna/amazon-customerreviews-polarity" target="_blank">dataset</a></u> 
-                                <p>
-                                    The Amazon reviews dataset consists of reviews from amazon. The data span a period of 18 years, including ~35 million reviews up to March 2013. Reviews include product and user information, ratings, and a plaintext review. It supports text classification and sentiment-classification: The dataset is mainly used for text classification: given the content and the title, predict the correct star rating.
-                                </p>
-                            </td>
-                        </tr>
+                            <tr>
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <img src="image/amazon-review.png" alt="fast-texture" width="160" height="120">
+                                </td>
+                                <td width="75%" valign="middle">
+                                    <a href="https://www.kaggle.com/datasets/bhavikardeshna/amazon-customerreviews-polarity" target="_blank">
+                                        <papertitle>Amazon Customer-Reviews Polarity
+                                        </papertitle>
+                                    </a>
+                                    <br>
+                                    The dataset is uploaded to <em>Kaggle</em>
+                                    <br>
+                                    <u><a href="https://www.kaggle.com/datasets/bhavikardeshna/amazon-customerreviews-polarity" target="_blank">dataset</a></u> 
+                                    <p>
+                                        The Amazon reviews dataset consists of reviews from amazon. The data span a period of 18 years, including ~35 million reviews up to March 2013. Reviews include product and user information, ratings, and a plaintext review. It supports text classification and sentiment-classification: The dataset is mainly used for text classification: given the content and the title, predict the correct star rating.
+                                    </p>
+                                </td>
+                            </tr>
 
-                    </tbody>
-                </table>
-
+                        </tbody>
+                    </table>
+                    
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>

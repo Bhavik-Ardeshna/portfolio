@@ -1,4 +1,38 @@
 /* latin-ext */
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.1;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 45px;
+  position: absolute;
+  left: 1px;
+  top: -5px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 10px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+
 @font-face {
     font-family: 'Lato';
     font-style: italic;
